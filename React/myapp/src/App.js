@@ -7,6 +7,7 @@ import Click from './components/Click';
 import ParentComp from './components/ParentComp';
 import PropsClass from './components/PropsClass';
 import FunctiopProps from './components/FunctiopProps';
+import StateTutorial from './components/StateTutorial';
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
   <FunctionalComp></FunctionalComp>
  <ClassComp></ClassComp>
  <Click></Click>
- <ParentComp></ParentComp>
- <PropsClass name='hello mohan'><button>Click</button></PropsClass>
-    <FunctiopProps name='love'></FunctiopProps>
-
-  </div>
+   <ParentComp></ParentComp>
+   <PropsClass name='hello mohan'><button>Click</button></PropsClass>
+  <FunctiopProps name='love'></FunctiopProps>
+  <StateTutorial ></StateTutorial>
+    </div>
+  
 
   );
 }
