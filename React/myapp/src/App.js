@@ -5,9 +5,7 @@ import FunctionalComp from './components/FunctionalComp';
 import ClassComp from './components/ClassComp';
 import Click from './components/Click';
 import ParentComp from './components/ParentComp';
-//import UpdatedComp from './components/higherOrderComp';
-// import FunctionalComp from './components/FunctionalComp';
-//import ClassComp from './components/ClassComp';
+import PropsClass from './components/PropsClass';
 function App() {
   return (
   <div><h1>Hi welcome to myapp</h1>
@@ -16,7 +14,7 @@ function App() {
  <ClassComp></ClassComp>
  <Click></Click>
  <ParentComp></ParentComp>
-
+ <PropsClass name='hi mohan'><button>Click<button/><PropsClass/>
   </div>
 
   );
