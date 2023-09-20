@@ -14,7 +14,8 @@ function App() {
  <ClassComp></ClassComp>
  <Click></Click>
  <ParentComp></ParentComp>
- <PropsClass name='hi mohan'><button>Click<button/><PropsClass/>
+ <PropsClass name='hello mohan'><button>Click</button></PropsClass>
+
   </div>
 
   );
