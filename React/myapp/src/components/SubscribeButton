@@ -1,0 +1,17 @@
+import React, { useState } from 'react';
+
+const SubscribeButton = () => {
+  const [subscribed, setSubscribed] = useState("");
+
+  const handleClick = () => {
+    setSubscribed(!subscribed);
+  };
+
+  return (
+    <button onClick={handleClick}>
+      {subscribed ? 'Subscribed' : 'Subscribe'}
+    </button>
+  );
+};
+
+export default SubscribeButton;
